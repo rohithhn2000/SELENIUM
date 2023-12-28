@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 26 00:25:19 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>200 seconds (200037 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestScripts.test_3.test()'><b>test</b><br>Test class: TestScripts.test_3<br/>
+<a href="#Output-1414934182" onClick='toggleBox("Output-1414934182", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1414934182" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1414934182">
+Product is added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>TestScripts.test_3@4e718207</td></tr>
+<tr>
+<td title='TestScripts.test_2.test()'><b>test</b><br>Test class: TestScripts.test_2<br/>
+<a href="#Output-892262157" onClick='toggleBox("Output-892262157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892262157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892262157">
+Product is added in to the cart<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>TestScripts.test_2@51c8530f</td></tr>
+<tr>
+<td title='TestScripts.test_7.testcase01()'><b>testcase01</b><br>Test class: TestScripts.test_7<br/>
+<a href="#Output-1648217898" onClick='toggleBox("Output-1648217898", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1648217898" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1648217898">
+Successfully Loggedout<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>TestScripts.test_7@13eb8acf</td></tr>
+<tr>
+<td title='TestScripts.test_1.testcase01()'><b>testcase01</b><br>Test class: TestScripts.test_1</td>
+<td></td>
+<td>3</td>
+<td>TestScripts.test_1@7403c468</td></tr>
+<tr>
+<td title='TestScripts.test_5.testcase05()'><b>testcase05</b><br>Test class: TestScripts.test_5<br/>
+<a href="#Output-159860059" onClick='toggleBox("Output-159860059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159860059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159860059">
+Order is confirmed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>TestScripts.test_5@543c6f6d</td></tr>
+<tr>
+<td title='TestScripts.test_4.testcase_03()'><b>testcase_03</b><br>Test class: TestScripts.test_4<br/>
+<a href="#Output-1418102907" onClick='toggleBox("Output-1418102907", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418102907" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418102907">
+Product added to wishlist<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>TestScripts.test_4@32eebfca</td></tr>
+<tr>
+<td title='TestScripts.test_6.testcase_03()'><b>testcase_03</b><br>Test class: TestScripts.test_6<br/>
+<a href="#Output-48428832" onClick='toggleBox("Output-48428832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48428832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48428832">
+Product added to wishlist<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>TestScripts.test_6@1d371b2d</td></tr>
+</table><p>
+</body>
+</html>
