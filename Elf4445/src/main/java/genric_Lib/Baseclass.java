@@ -30,7 +30,7 @@ public WebDriver driver;
 	@Parameters("browser")
 	@BeforeClass
 	
-	public void launch(String browsername )  {
+	public void launch(@Optional ("chrome") String browsername)  {
 		//String browsername=System.getProperty("bname");
 		if (browsername.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();

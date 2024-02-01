@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
     <line>
       <![CDATA[Browser launched succesfully]]>
@@ -20,6 +20,15 @@
       <![CDATA[clicked on login button]]>
     </line>
     <line>
+      <![CDATA[Clicked on Apparels and Shoes]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product]]>
+    </line>
+    <line>
+      <![CDATA[Product added to wishlist]]>
+    </line>
+    <line>
       <![CDATA[Browser launched succesfully]]>
     </line>
     <line>
@@ -37,13 +46,140 @@
     <line>
       <![CDATA[clicked on login button]]>
     </line>
+    <line>
+      <![CDATA[Clicked on Books link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on cart]]>
+    </line>
+    <line>
+      <![CDATA[Product added to Shoppingcart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping cart link]]>
+    </line>
+    <line>
+      <![CDATA[Terms and condn checked]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on checkout button]]>
+    </line>
+    <line>
+      <![CDATA[Selected the address]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on continue1]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on continue2]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on continue3]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on continue4]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on continue5]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on checkout button]]>
+    </line>
+    <line>
+      <![CDATA[Order is confirmed]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched succesfully]]>
+    </line>
+    <line>
+      <![CDATA[test URL is entered succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login link]]>
+    </line>
+    <line>
+      <![CDATA[Emailid is entered]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Loggedout]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched succesfully]]>
+    </line>
+    <line>
+      <![CDATA[test URL is entered succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login link]]>
+    </line>
+    <line>
+      <![CDATA[Emailid is entered]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login button]]>
+    </line>
+    <line>
+      <![CDATA[Homepage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched succesfully]]>
+    </line>
+    <line>
+      <![CDATA[test URL is entered succesfully]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login link]]>
+    </line>
+    <line>
+      <![CDATA[Emailid is entered]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Apparels and Shoes]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping cart link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Product and Description opened]]>
+    </line>
+    <line>
+      <![CDATA[Product added to wishlist]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26025" started-at="2023-12-28T15:39:46 IST" finished-at="2023-12-28T15:40:12 IST">
+  <suite name="Suite" duration-ms="135222" started-at="2024-01-09T22:45:55 IST" finished-at="2024-01-09T22:48:10 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26025" started-at="2023-12-28T15:39:46 IST" finished-at="2023-12-28T15:40:12 IST">
-      <class name="genric_Lib.Baseclass">
-        <test-method status="PASS" signature="launch()[pri:0, instance:genric_Lib.Baseclass@1e7c7811]" name="launch" is-config="true" duration-ms="16117" started-at="2023-12-28T15:39:46 IST" finished-at="2023-12-28T15:40:02 IST">
+    <test name="Test" duration-ms="135222" started-at="2024-01-09T22:45:55 IST" finished-at="2024-01-09T22:48:10 IST">
+      <class name="TestScripts.DWS_Orders_005_Test">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:TestScripts.DWS_Orders_005_Test@612679d6]" name="launch" is-config="true" duration-ms="14732" started-at="2024-01-09T22:46:35 IST" finished-at="2024-01-09T22:46:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Browser launched succesfully]]>
@@ -65,33 +201,246 @@
             </line>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="launch()[pri:0, instance:genric_Lib.Baseclass@1e7c7811]" name="launch" duration-ms="8617" started-at="2023-12-28T15:40:02 IST" finished-at="2023-12-28T15:40:10 IST">
+        <test-method status="PASS" signature="DWS_Orders_005()[pri:0, instance:TestScripts.DWS_Orders_005_Test@612679d6]" name="DWS_Orders_005" duration-ms="17180" started-at="2024-01-09T22:46:49 IST" finished-at="2024-01-09T22:47:07 IST">
           <reporter-output>
             <line>
-              <![CDATA[Browser launched succesfully]]>
+              <![CDATA[Clicked on Books link]]>
             </line>
             <line>
-              <![CDATA[test URL is entered succesfully]]>
+              <![CDATA[Clicked on cart]]>
             </line>
             <line>
-              <![CDATA[clicked on login link]]>
+              <![CDATA[Product added to Shoppingcart]]>
             </line>
             <line>
-              <![CDATA[Emailid is entered]]>
+              <![CDATA[Clicked on Shopping cart link]]>
             </line>
             <line>
-              <![CDATA[Password is entered]]>
+              <![CDATA[Terms and condn checked]]>
             </line>
             <line>
-              <![CDATA[clicked on login button]]>
+              <![CDATA[Clicked on checkout button]]>
+            </line>
+            <line>
+              <![CDATA[Selected the address]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on continue1]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on continue2]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on continue3]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on continue4]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on continue5]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on checkout button]]>
+            </line>
+            <line>
+              <![CDATA[Order is confirmed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:genric_Lib.Baseclass@1e7c7811]" name="logout" is-config="true" duration-ms="1170" started-at="2023-12-28T15:40:11 IST" finished-at="2023-12-28T15:40:12 IST">
+        </test-method> <!-- DWS_Orders_005 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestScripts.DWS_Orders_005_Test@612679d6]" name="logout" is-config="true" duration-ms="1127" started-at="2024-01-09T22:47:07 IST" finished-at="2024-01-09T22:47:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- genric_Lib.Baseclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestScripts.DWS_Orders_005_Test -->
+      <class name="TestScripts.DWS_Wishlist_006_Test">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:TestScripts.DWS_Wishlist_006_Test@1060b431]" name="launch" is-config="true" duration-ms="30491" started-at="2024-01-09T22:45:55 IST" finished-at="2024-01-09T22:46:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched succesfully]]>
+            </line>
+            <line>
+              <![CDATA[test URL is entered succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login link]]>
+            </line>
+            <line>
+              <![CDATA[Emailid is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="DWS_Wishlist_06()[pri:0, instance:TestScripts.DWS_Wishlist_006_Test@1060b431]" name="DWS_Wishlist_06" duration-ms="8223" started-at="2024-01-09T22:46:25 IST" finished-at="2024-01-09T22:46:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Apparels and Shoes]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product]]>
+            </line>
+            <line>
+              <![CDATA[Product added to wishlist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DWS_Wishlist_06 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestScripts.DWS_Wishlist_006_Test@1060b431]" name="logout" is-config="true" duration-ms="1271" started-at="2024-01-09T22:46:33 IST" finished-at="2024-01-09T22:46:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestScripts.DWS_Wishlist_006_Test -->
+      <class name="TestScripts.DWS_Wishlist_004_Test">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:TestScripts.DWS_Wishlist_004_Test@1b26f7b2]" name="launch" is-config="true" duration-ms="15836" started-at="2024-01-09T22:47:44 IST" finished-at="2024-01-09T22:48:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched succesfully]]>
+            </line>
+            <line>
+              <![CDATA[test URL is entered succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login link]]>
+            </line>
+            <line>
+              <![CDATA[Emailid is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="DWS_Wishlist_004()[pri:0, instance:TestScripts.DWS_Wishlist_004_Test@1b26f7b2]" name="DWS_Wishlist_004" duration-ms="9239" started-at="2024-01-09T22:48:00 IST" finished-at="2024-01-09T22:48:09 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Apparels and Shoes]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping cart link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Product and Description opened]]>
+            </line>
+            <line>
+              <![CDATA[Product added to wishlist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DWS_Wishlist_004 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestScripts.DWS_Wishlist_004_Test@1b26f7b2]" name="logout" is-config="true" duration-ms="836" started-at="2024-01-09T22:48:09 IST" finished-at="2024-01-09T22:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestScripts.DWS_Wishlist_004_Test -->
+      <class name="TestScripts.DWS_signup_001_Test">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:TestScripts.DWS_signup_001_Test@e720b71]" name="launch" is-config="true" duration-ms="19824" started-at="2024-01-09T22:47:23 IST" finished-at="2024-01-09T22:47:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched succesfully]]>
+            </line>
+            <line>
+              <![CDATA[test URL is entered succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login link]]>
+            </line>
+            <line>
+              <![CDATA[Emailid is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="DWS_signup_001()[pri:0, instance:TestScripts.DWS_signup_001_Test@e720b71]" name="DWS_signup_001" duration-ms="206" started-at="2024-01-09T22:47:43 IST" finished-at="2024-01-09T22:47:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Homepage is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DWS_signup_001 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestScripts.DWS_signup_001_Test@e720b71]" name="logout" is-config="true" duration-ms="819" started-at="2024-01-09T22:47:43 IST" finished-at="2024-01-09T22:47:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestScripts.DWS_signup_001_Test -->
+      <class name="TestScripts.DWS_Logout_007_Test">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:TestScripts.DWS_Logout_007_Test@11758f2a]" name="launch" is-config="true" duration-ms="12303" started-at="2024-01-09T22:47:08 IST" finished-at="2024-01-09T22:47:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched succesfully]]>
+            </line>
+            <line>
+              <![CDATA[test URL is entered succesfully]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login link]]>
+            </line>
+            <line>
+              <![CDATA[Emailid is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="DWS_Logout_007()[pri:0, instance:TestScripts.DWS_Logout_007_Test@11758f2a]" name="DWS_Logout_007" duration-ms="1931" started-at="2024-01-09T22:47:20 IST" finished-at="2024-01-09T22:47:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Loggedout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DWS_Logout_007 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestScripts.DWS_Logout_007_Test@11758f2a]" name="logout" is-config="true" duration-ms="1060" started-at="2024-01-09T22:47:22 IST" finished-at="2024-01-09T22:47:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestScripts.DWS_Logout_007_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
